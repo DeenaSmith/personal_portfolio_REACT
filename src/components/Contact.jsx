@@ -1,0 +1,37 @@
+
+import React from 'react'
+
+const Contact = () => {
+    return (
+        <div>
+            <div>
+                <div>
+                    <p>Get in touch!</p>
+                    <p>Complete the form below and I'll get back to you ASAP.</p>
+                </div>
+                <div>
+                    <form action="">
+                        <input 
+                            type="text" 
+                            name="name" 
+                            placeholder="Name" 
+                            className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none" />
+                        <input 
+                            type="text" 
+                            name="email" 
+                            placeholder="Email" 
+                            className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none" />
+                        <textarea 
+                            name="message"
+                            rows="10"
+                            className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none" />
+                        <button className="text-white bg-gradient-to-b from-purple-900 to-pink-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300">Let's chat!</button>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    )
+};
+
+export default Contact;
