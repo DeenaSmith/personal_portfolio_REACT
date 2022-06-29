@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/personal_portfolio_REACT/static/css/main.113cd783.css",
+    "main.js": "/personal_portfolio_REACT/static/js/main.96fe6a6e.js",
+    "static/media/rateMyPlaylist.jpeg": "/personal_portfolio_REACT/static/media/rateMyPlaylist.0d3555334b64f89935ec.jpeg",
+    "static/media/heroImage.png": "/personal_portfolio_REACT/static/media/heroImage.77f334f80df58e0a97ff.png",
+    "static/media/workdayScheduler.jpeg": "/personal_portfolio_REACT/static/media/workdayScheduler.ce89d2505e6ea158f483.jpeg",
+    "static/media/employeeTracker.jpeg": "/personal_portfolio_REACT/static/media/employeeTracker.8428a218a0653aad9332.jpeg",
+    "static/media/satelliteTracker.jpeg": "/personal_portfolio_REACT/static/media/satelliteTracker.5d67bb95a9710f32e878.jpeg",
+    "static/media/graphql.png": "/personal_portfolio_REACT/static/media/graphql.fc6b9451733c620ceb86.png",
+    "static/media/pizzaHunt.jpeg": "/personal_portfolio_REACT/static/media/pizzaHunt.07203fe3954c02a55dad.jpeg",
+    "static/media/passwordGenerator.jpeg": "/personal_portfolio_REACT/static/media/passwordGenerator.4cc86c15cc793e5b758b.jpeg",
+    "static/media/react.png": "/personal_portfolio_REACT/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/node.png": "/personal_portfolio_REACT/static/media/node.952a9ea986dcfa5229ad.png",
+    "static/media/github.png": "/personal_portfolio_REACT/static/media/github.3b9e32903aa89111875d.png",
+    "static/media/html.png": "/personal_portfolio_REACT/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/tailwind.png": "/personal_portfolio_REACT/static/media/tailwind.e47ac876b8d4d0bba47a.png",
+    "static/media/css.png": "/personal_portfolio_REACT/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/mongodb.png": "/personal_portfolio_REACT/static/media/mongodb.e232b4ee942731aab7f7.png",
+    "static/media/javascript.png": "/personal_portfolio_REACT/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "index.html": "/personal_portfolio_REACT/index.html",
+    "main.113cd783.css.map": "/personal_portfolio_REACT/static/css/main.113cd783.css.map",
+    "main.96fe6a6e.js.map": "/personal_portfolio_REACT/static/js/main.96fe6a6e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.113cd783.css",
+    "static/js/main.96fe6a6e.js"
+  ]
+}
