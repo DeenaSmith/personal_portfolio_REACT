@@ -12,34 +12,47 @@ const Portfolio = () => {
     const portfolios = [
         {
             id: 1,
-            src: rateMyPlaylist
+            src: rateMyPlaylist,
+            url: 'https://protected-garden-77743.herokuapp.com/',
+            name:"Rate My Playlist Site"
         },
         {
             id: 2,
-            src: employeeTracker
+            src: employeeTracker,
+            url: 'https://github.com/DeenaSmith/employee_tracker',
+            name: "Employee Tracker SRC"
         },
         {
             id: 3,
-            src: workdayScheduler
+            src: workdayScheduler,
+            url: 'https://github.com/DeenaSmith/work_day_scheduler',
+            name: "Workday Scheduler SRC"
         },
-        {
+        {   
             id: 4,
-            src: satelliteTracker
+            src: pizzaHunt,
+            url: 'https://github.com/DeenaSmith/pizza_hunt',
+            name: "Pizza Hunt SRC"
+            
         },
         {
             id: 5,
-            src: pizzaHunt
+            src: passwordGenerator,
+            url: 'https://github.com/DeenaSmith/password_generator',
+            name: "Password Generator SRC"
         },
         {
             id: 6,
-            src: passwordGenerator
+            src: satelliteTracker,
+            url: 'https://zurdoc8.github.io/satellite_tracker1.0/',
+            name: "Satellite Tracker Site"
         }
     ];
 
 
     return (
         <div
-            name="portfolio"
+            name="projects"
             className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen"
         >
             <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
@@ -51,19 +64,21 @@ const Portfolio = () => {
                 </div>
 
                 <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-                    {portfolios.map(({ id, src }) => (
-                        <div key={id} className="shadow-md shadow-gray-500 rounded-lg">
-                            <img
-                                src={src}
-                                alt="projects"
-                                className="rounded-md duration-200 hover:scale-105"
-                            />
-                            <div className="flex items-center justify-center">
-                                <button className="px-6 py-2 m-1 duration-200 hover:scale-105 text-2xl">
-                                    Code
-                                </button>
+                    {portfolios.map(({ id, src, url, name }) => (
+                        <a href={url} target="_blank" rel="noreferrer">
+                            <div key={id} className="shadow-md shadow-gray-500 rounded-lg">
+                                <img
+                                    src={src}
+                                    alt="projects"
+                                    className="rounded-md duration-200 hover:scale-105"
+                                />
+                                <div className="flex items-center justify-center">
+                                    <button className="px-6 py-2 m-1 duration-200 hover:scale-105 text-2xl">
+                                        {name}
+                                    </button>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     ))}
                 </div>
             </div>

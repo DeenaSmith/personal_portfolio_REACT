@@ -58,7 +58,7 @@ const Experience = () => {
         {
             id: 8,
             src: css,
-            title: "HTML",
+            title: "CSS",
             style: "shadow-blue-500"
         },
         {
@@ -67,6 +67,7 @@ const Experience = () => {
             title: "MongoDB",
             style: "shadow-green-600"
         }
+        
     ];
 
     return (

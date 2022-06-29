@@ -1,6 +1,8 @@
-import React from 'react'
-import HeroImage from "../assets/heroImage.jpeg"
-import {TbArrowRightTail} from "react-icons/tb"
+import React from 'react';
+import HeroImage from "../assets/heroImage.png";
+import { TbArrowRightTail } from "react-icons/tb";
+import { Link } from "react-scroll";
+
 
 const Home = () => {
     return (
@@ -12,17 +14,18 @@ const Home = () => {
                     <p className="text-gray-500 py-4 max-w-md">I'm a budding software developer coming from the Aviation world that is proficient in JavaScript, MERN, APIs, and more. I'm looking to take on new projects and applications that challenge the boundaries of code!
                     </p>
                     <div>
-                    <button className="group text-white w-fir px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-purple-900 to-pink-500 cursor-pointer">
-                        Projects
-                        <span className="group-hover:rotate-90 duration-300">
-                        <TbArrowRightTail size={25} className="ml-1" />
-                        </span>
-                    </button>
+                        <Link to="projects" smooth duration={500}
+                            className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-purple-900 to-pink-500 cursor-pointer">
+                            Projects
+                            <span className="group-hover:rotate-90 duration-300">
+                                <TbArrowRightTail size={25} className="ml-1" />
+                            </span>
+                        </Link>
                     </div>
                 </div>
 
                 <div>
-                    <img src={HeroImage} alt="developer profile" className ="rounded-2xl mx-auto w-2/3 md:w-full" />
+                    <img src={HeroImage} alt="developer profile" className="rounded-2xl mx-auto w-2/3 md:w-full" />
 
                 </div>
             </div>
