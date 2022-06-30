@@ -1,6 +1,13 @@
-# Getting Started with Create React App
+# Getting Started with Create React App 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and can be viewed at https://deenasmith.github.io/personal_portfolio_REACT/ 
+
+![Screen Shot 2022-06-30 at 5 17 32 PM](https://user-images.githubusercontent.com/98545911/176788680-9184bb17-23af-41b8-9417-74a75f96a6ee.png)
+
+![Screen Shot 2022-06-30 at 5 18 09 PM](https://user-images.githubusercontent.com/98545911/176788791-dff72a6e-1755-4d38-b58c-805f8e5546d7.png)
+
+![Screen Shot 2022-06-30 at 5 18 30 PM](https://user-images.githubusercontent.com/98545911/176788804-ba07f5f0-c9df-452a-9f85-21548c632b81.png)
+
 
 ## Available Scripts
 
