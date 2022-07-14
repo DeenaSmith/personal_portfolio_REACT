@@ -4,7 +4,7 @@ import employeeTracker from "../assets/projects/employeeTracker.jpeg";
 import passwordGenerator from "../assets/projects/passwordGenerator.jpeg";
 import pizzaHunt from "../assets/projects/pizzaHunt.jpeg";
 import rateMyPlaylist from "../assets/projects/rateMyPlaylist.jpeg";
-import workdayScheduler from "../assets/projects/workdayScheduler.jpeg";
+import canvas from "../assets/projects/canvas.jpeg";
 import satelliteTracker from "../assets/projects/satelliteTracker.jpeg";
 
 const Portfolio = () => {
@@ -24,9 +24,9 @@ const Portfolio = () => {
         },
         {
             id: 3,
-            src: workdayScheduler,
-            url: 'https://github.com/DeenaSmith/work_day_scheduler',
-            name: "Workday Scheduler SRC"
+            src: canvas,
+            url: 'https://frozen-cove-10855.herokuapp.com/',
+            name: "Canvas"
         },
         {   
             id: 4,
