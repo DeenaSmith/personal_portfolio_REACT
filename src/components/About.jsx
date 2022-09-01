@@ -12,7 +12,7 @@ const About = () => {
 
                     <br />
 
-                    <p className="text-xl">From one difficult and technical arena to another, I took it upon myself to jump into programming and explore the boundaries of code. With countless technologies available to explore, there is no shortage of new thigns to learn...and that doesn't scare me, it excites me. Of all the things my diverse background has taught me, focus, comminucation, and determination have driven me to the top of each mountain I set out to climb.</p>
+                    <p className="text-xl">From one difficult and technical arena to another, I took it upon myself to jump into programming and explore the boundaries of code. With countless technologies available to explore, there is no shortage of new things to learn...and that doesn't scare me, it excites me. Of all the things my diverse background has taught me, focus, comminucation, and determination have driven me to the top of each mountain I set out to climb.</p>
             </div>
         </div>
     )

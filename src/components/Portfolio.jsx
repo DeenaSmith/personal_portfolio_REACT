@@ -26,7 +26,7 @@ const Portfolio = () => {
             id: 3,
             src: profileGenerator,
             url: 'https://github.com/DeenaSmith/team_profile_generator',
-            name: "Team Profile Generator"
+            name: "Team Profile Generator SRC"
         },
         {   
             id: 4,
