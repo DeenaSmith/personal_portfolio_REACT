@@ -12,14 +12,13 @@ import Contact from './components/Contact';
 function App() {
   return (
     <div>
-      <NavBar />
-      <Home />
-      <About />
-      <Portfolio />
-      <Experience />
-      <Contact />
-
-      <SocialLinks />
+        <NavBar />
+        <Home />
+        <About />
+        <Portfolio />
+        <Experience />
+        <Contact />
+        <SocialLinks />
     </div>
   )
 };
